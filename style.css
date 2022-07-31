@@ -4,6 +4,11 @@ body {
 	margin: 30px;
 	color: #e6e6e6;
 	}
+main {
+	background: #333333;
+	max-width: 800px;
+	margin: auto;
+}
 h1, h2, h3 {
 	text-align: center;
 }
