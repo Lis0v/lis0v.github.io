@@ -16,20 +16,13 @@ main {
 h1, h2, h3 {
 	text-align: center;
 }
-h1 a:hover, h1 a:active {
-	text-decoration: none;
-	}
 a:link {
+	color: #4d9900;
 	text-decoration: none;
-	color: #408000;
-    transition: all 1s ease;
-	}
+    }
 a:visited {
-	text-decoration: none;
-	color: #408000;
-	}
+	color: #4d9900;
+    }
 a:hover, a:active {
 	color: #a3ff00;
-    transition: all 0.25s ease;
-    text-shadow: 0 0 8px #40ff00;
 	}
