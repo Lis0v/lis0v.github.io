@@ -5,9 +5,13 @@ body {
 	color: #e6e6e6;
 	}
 main {
-	background: #333333;
+	background: #1a1a1a;
 	max-width: 800px;
 	margin: auto;
+}
+.text {
+	display: block;
+	margin: 0 10px;	
 }
 h1, h2, h3 {
 	text-align: center;
