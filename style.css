@@ -10,10 +10,19 @@ main {
 	margin: auto;
 }
 .text {
-	display: block;
-	margin: 0 10px;	
+    display: flow-root;
+	margin: 10px 20px 10px;	
 }
-h1, h2, h3 {
+footer {
+    background: #0d0d0d;
+    color: #e6e6e6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2{
 	text-align: center;
 }
 a:link {
