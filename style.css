@@ -8,6 +8,10 @@ main {
 	background: #1a1a1a;
 	max-width: 800px;
 	margin: auto;
+    border-radius: 10px;
+}
+pre{
+    text-align: center;
 }
 .text {
     display: flow-root;
