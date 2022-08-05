@@ -28,6 +28,12 @@ footer {
     width: 100%;
 }
 
+.ghlogo {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
 h1, h2{
 	text-align: center;
 }
