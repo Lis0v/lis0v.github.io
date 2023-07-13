@@ -7,27 +7,48 @@
 		<title>LSV</title>
 
 		<style>
-			A:hover{
+			a{
+				color: #ddb500
+			}
+			a:visited{
+				color: #ddb500;
+			}
+			a:hover{
 				cursor: url("img/sonic2.gif"), auto;
+				color: gold;
+			}
+			html{
+				position: relative;
+				min-height: 100%;
 			}
 			body{
 				font-family: monospace;
-				background: #ffffff;
+				color: gold;
+				background: #403322;
 				cursor: url("img/sonic.gif"), auto;
+				margin-bottom: 150px;
 			}
 			main{
-				background: #dedede
+				padding-bottom: 2.5rem;
+				background: #13214a;
+				margin: 10%;
+				margin-top: 1%;
+				outline-style: outset;
+				outline-width: 4px;
+				outline-color: gold;
 			}
 			.text{
-				margin: 5px 10px 15px;
+				margin: 0.5% 1% 2%;
 				display: inline-block;
 			}
 			footer{
-				background: #dedede;
-				position: fixed;
-				bottom: 0;
-				left: 0;
-				right: 0;
+				background: #13214a;
+				position: absolute;
+				width: 100%;
+				bottom:0;
+				left:0;
+				margin-top: 10px;
+				min-height: 100px;
 			}
 			.gif{
 				max-width: 150px;
@@ -35,6 +56,11 @@
 			
 			.butn{
 				height: 50px;
+				margin: 2px;
+			}
+			
+			.balls{
+				margin: 1%;
 			}
 			
 
@@ -56,6 +82,19 @@
 			<div class=text>
 				<h2>Subpages</h2>
 				<a href="https://lis0v.github.io/complex">Complex numbers converter</a>
+				
+				
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ligula urna, laoreet vitae facilisis vitae, faucibus sit amet nibh. Integer lacinia purus at volutpat varius. Donec sollicitudin leo iaculis vestibulum rutrum. Sed porta vehicula sapien, non porttitor ex aliquet sit amet. Aliquam finibus justo ut massa lobortis tempus. Curabitur maximus ornare ex. Donec vel magna eget dolor efficitur convallis viverra non felis.
+
+<p>Donec ac nisi rhoncus, scelerisque nulla eu, interdum risus. Sed id tincidunt justo. Sed placerat ut mauris nec consequat. Aliquam interdum nibh eu est sodales congue sit amet id magna. Maecenas blandit justo non commodo placerat. Proin suscipit leo et massa rhoncus, et commodo ligula pretium. Etiam sit amet lacus vulputate, egestas magna quis, imperdiet nisi.
+
+<p>Morbi dictum vestibulum metus nec condimentum. Curabitur venenatis vestibulum mattis. Quisque fringilla velit sit amet leo ultricies, id placerat justo auctor. Fusce eu auctor eros. Nunc a tellus tempus, commodo turpis in, cursus elit. Ut aliquam, ligula non placerat iaculis, arcu nisl lobortis odio, non consectetur leo mauris at sapien. Nulla blandit tortor ullamcorper, convallis ligula et, elementum odio. Aliquam ornare nibh sed eros dapibus vestibulum. Maecenas ac tempus nunc. Phasellus non purus vel lectus pellentesque accumsan sit amet at mi. Proin a ligula vitae purus tincidunt pellentesque id ut libero. Praesent dictum fringilla urna vel imperdiet. Suspendisse convallis mattis mauris, vel facilisis odio feugiat eu. Maecenas eleifend metus turpis, in euismod felis eleifend vitae. Suspendisse pulvinar mattis erat eget commodo. Pellentesque et dolor dictum, posuere eros nec, bibendum neque.
+
+<p>Sed ut nibh in augue iaculis mattis. Duis ut nisl varius, aliquam urna sed, ornare metus. Vivamus efficitur gravida nibh, id venenatis risus consectetur vel. Sed finibus ante facilisis nulla egestas, nec pharetra purus volutpat. In accumsan augue quis neque gravida bibendum. Aenean ut sem dapibus, facilisis velit et, rhoncus erat. Fusce massa elit, euismod vitae lectus eget, fermentum dapibus massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam volutpat ante lacinia elit ultricies finibus. Morbi lectus mi, hendrerit id convallis et, mattis ut neque. Vestibulum vehicula eleifend faucibus. Aenean feugiat aliquam mi, non pharetra risus rhoncus id. Etiam id purus vulputate, mollis libero eu, dignissim diam.
+
+Nullam lectus felis, placerat quis erat nec, molestie interdum metus. Vestibulum a augue at nunc laoreet placerat sed eget nulla. Nulla facilisi. Praesent ac congue dolor. Nullam mattis eros commodo velit sagittis egestas. Nunc et eros gravida, aliquam ipsum in, finibus odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer venenatis augue id neque interdum gravida. Aliquam erat volutpat. Morbi semper lectus id neque tincidunt ornare. Praesent quis lacus odio. 
+				
 			</div>
 			
 		</main>
@@ -63,8 +102,7 @@
 	</body>
 	
 	<footer>
-		<div>
-			<p class=butn>
+		<div class=balls>
 			
 			<a href="http://www.anybrowser.org/campaign/">
 			<img class=butn src=img/mri.gif  alt="Viewable With Any Browser" />
@@ -75,8 +113,7 @@
 			<img class=butn src=img/firefoxnow.gif />
 			<img class=butn src=img/gethtmlnow.gif />
 			<img class=butn src=img/gsm.gif />
-			
-			</p>
+
 		</div>
 	</footer>
 
